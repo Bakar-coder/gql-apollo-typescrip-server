@@ -1,0 +1,13 @@
+export const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:3000';
+export const REDIS_URL = process.env.REDIS_URL;
+export const __prod__ = process.env.NODE_ENV === 'production';
+export const PRIVATE_KEY = process.env.PRIVATE_KEY;
+export const APP_DOMAIN = process.env.APP_DOMAIN;
+export const PORT = process.env.PORT || 8080;
+export const RESET_PASSWORD_PREFIX = 'reset-password';
+export const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+export const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
+export const GOOGLE_CALLBACK_URL = process.env.GOOGLE_CALLBACK_URL;
+export const BRAINTREE_MERCHANT_ID = process.env.BRAINTREE_MERCHANT_ID;
+export const BRAINTREE_PUBLIC_KEY = process.env.BRAINTREE_PUBLIC_KEY;
+export const BRAINTREE_PRIVATE_KEY = process.env.BRAINTREE_PRIVATE_KEY;
